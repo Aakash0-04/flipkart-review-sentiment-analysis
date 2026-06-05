@@ -33,6 +33,7 @@ flipkart-review-sentiment-analysis/
 │
 ├── App/
 │   └── main.py
+│   └── sentiment_model.pkl
 │
 ├── Data/
 │   ├── Raw/
@@ -46,7 +47,7 @@ flipkart-review-sentiment-analysis/
 │   └── Model_Training.ipynb
 │
 ├── Src/
-│   └── sentiment_model.pkl
+│ ├── preprocess_flipkart.ipynb
 │
 ├── Report/
 │   └── Insight_Report.pdf
@@ -96,7 +97,68 @@ Key findings from customer reviews:
 
 * Negative reviews tend to be longer and more detailed.
 * Verified buyers often provide more informative feedback.
+---
 
+<h2>EDA Results</h2>
+
+<table>
+<tr>
+<td align="center">
+<b>Sentiment Distribution</b><br>
+<img src="Data/EDA_Charts/sentiment_distribution.png" width="350">
+</td>
+
+<td align="center">
+<b>Rating Distribution</b><br>
+<img src="Data/EDA_Charts/Rating_distribution.png" width="350">
+</td>
+</tr>
+</table>
+
+---
+<table>
+<tr>
+<td align="center">
+<b>Review Length vs Sentiment</b><br>
+<img src="Data/EDA_Charts/review_length_vs_sentiment.png" width="350">
+</td>
+
+<td align="center">
+<b>Verified Purchase Analysis</b><br>
+<img src="Data/EDA_Charts/sentiment_by_verified_purchase.png" width="350">
+</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td align="center">
+<b>Product-wise Sentiment</b><br>
+<img src="Data/EDA_Charts/sentiment_by_product.png" width="350">
+</td>
+
+<td align="center">
+<b>Helpful Votes Analysis</b><br>
+<img src="Data/EDA_Charts/helpful_upvotes_by_sentiment.png" width="350">
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center">
+<b>Word Cloud</b><br>
+<img src="Data/EDA_Charts/world_cloud.png" width="350">
+</td>
+
+<td align="center">
+<b>Confusion Matrix</b><br>
+<img src="Data/EDA_Charts/confusion_matrix_balanced.png" width="350">
+</td>
+</tr>
+</table>
 ---
 
 ## Model Development
@@ -161,46 +223,6 @@ http://127.0.0.1:8000/docs
 }
 ```
 
----
-<h2>EDA Results</h2>
-
-<table>
-<tr>
-<td align="center">
-<b>Sentiment Distribution</b><br>
-<img src="Data/EDA_Charts/sentiment_distribution.png" width="400">
-</td>
-
-<td align="center">
-<b>Rating Distribution</b><br>
-<img src="Data/EDA_Charts/Rating_distribution.png" width="400">
-</td>
-</tr>
-
-<tr>
-<td align="center">
-<b>Review Length vs Sentiment</b><br>
-<img src="Data/EDA_Charts/review_length_vs_sentiment.png" width="400">
-</td>
-
-<td align="center">
-<b>Product-wise Sentiment</b><br>
-<img src="Data/EDA_Charts/sentiment_by_product.png" width="400">
-</td>
-</tr>
-
-<tr>
-<td align="center">
-<b>Verified Purchase Analysis</b><br>
-<img src="Data/EDA_Charts/sentiment_by_verified_purchase.png" width="400">
-</td>
-
-<td align="center">
-<b>Helpful Votes Analysis</b><br>
-<img src="Data/EDA_Charts/helpful_upvotes_by_sentiment.png" width="400">
-</td>
-</tr>
-</table>
 ---
 
 ## Limitations
