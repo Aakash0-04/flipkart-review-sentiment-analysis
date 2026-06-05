@@ -1,4 +1,8 @@
-# Flipkart Review Sentiment Analysis
+# Flipkart Review Sentiment 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![NLP](https://img.shields.io/badge/NLP-Sentiment%20Analysis-red)
 
 An end-to-end NLP and Machine Learning project that analyzes customer reviews of **Samsung Galaxy S24** and **iPhone 15** collected from Flipkart. The project includes data collection, preprocessing, exploratory data analysis (EDA), sentiment classification using **TF-IDF + Logistic Regression**, business insight generation, and a **FastAPI-based inference service** for real-time sentiment prediction.
 
@@ -22,7 +26,6 @@ An end-to-end NLP and Machine Learning project that analyzes customer reviews of
 * NLTK
 * Matplotlib
 * FastAPI
-* Docker
 
 ---
 
