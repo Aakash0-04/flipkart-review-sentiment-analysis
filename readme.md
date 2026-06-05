@@ -162,22 +162,45 @@ http://127.0.0.1:8000/docs
 ```
 
 ---
+<h2>EDA Results</h2>
 
-## Results
+<table>
+<tr>
+<td align="center">
+<b>Sentiment Distribution</b><br>
+<img src="Data/EDA_Charts/sentiment_distribution.png" width="400">
+</td>
 
-Include screenshots from:
+<td align="center">
+<b>Rating Distribution</b><br>
+<img src="Data/EDA_Charts/Rating_distribution.png" width="400">
+</td>
+</tr>
 
-* Sentiment Distribution
-* Rating Distribution
-* Confusion Matrix
-* FastAPI Swagger UI
+<tr>
+<td align="center">
+<b>Review Length vs Sentiment</b><br>
+<img src="Data/EDA_Charts/review_length_vs_sentiment.png" width="400">
+</td>
 
-Example:
+<td align="center">
+<b>Product-wise Sentiment</b><br>
+<img src="Data/EDA_Charts/sentiment_by_product.png" width="400">
+</td>
+</tr>
 
-```markdown
-![Confusion Matrix](Data/Processed/EDA_Charts/confusion_matrix_balanced.png)
-```
+<tr>
+<td align="center">
+<b>Verified Purchase Analysis</b><br>
+<img src="Data/EDA_Charts/sentiment_by_verified_purchase.png" width="400">
+</td>
 
+<td align="center">
+<b>Helpful Votes Analysis</b><br>
+<img src="Data/EDA_Charts/helpful_upvotes_by_sentiment.png" width="400">
+</td>
+</tr>
+</table>
 ---
 
 ## Limitations
