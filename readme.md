@@ -42,7 +42,7 @@ flipkart-review-sentiment-analysis/
 │   ├── Raw/
 │   └── Processed/
 │       ├── flipkart_cleaned.csv
-│       └── EDA_Charts/
+│   └── EDA_Charts/
 │
 ├── Notebooks/
 │   ├── EDA.ipynb
@@ -50,6 +50,7 @@ flipkart-review-sentiment-analysis/
 │   └── Model_Training.ipynb
 │
 ├── Src/
+│ ├── Data/
 │ ├── preprocess_flipkart.ipynb
 │
 ├── Report/
